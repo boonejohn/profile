@@ -58,8 +58,8 @@ h3 {
 
 .btn-blue {
   text-decoration: none;
-  background-color: rgb(132, 6, 36);
-  color: rgb(1, 0, 1);
+  background-color: rgb(28, 72, 233);
+  color: rgb(255, 255, 255);
   padding: 12px 16px;
   font-weight: bolder;
   border-radius: 4px;
@@ -69,7 +69,7 @@ h3 {
 }
 
 .btn-blue:hover {
-    opacity: .4;
+    opacity: 1;
 }
 
 @media (max-width: 960px) {
