@@ -1,0 +1,86 @@
+body {
+  color:black;
+  background-color: rgb(16, 3, 3);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: normal;
+
+}
+h1 {
+  color: rgb(4, 4, 18);
+  font-size: 16px;
+  line-height: normal;
+
+}
+
+h2 {
+  color: rgb(4, 4, 18);
+  font-size: 16px;
+  line-height: normal;
+}
+
+h3 {
+  color: rgb(4, 4, 18);
+  font-size: 16px;
+  line-height: normal;
+}
+
+.card {
+  background: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin: 24px 0;
+    text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 750px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li a > i {
+  color: rgb(18, 211, 198);
+  font-size: 48px;
+}
+.list-inline li a > i {
+  color: rgb(18, 79, 41);
+  font-size: 48px;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 12px;
+}
+.avatar {
+  width: 120;
+  height: 100;
+  border-radius: 50%;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
